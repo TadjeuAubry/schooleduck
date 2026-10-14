@@ -1,0 +1,137 @@
+.classes{
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 3rem 2rem ;
+}
+.classes-text{
+    margin-bottom: 50px;
+}
+.classes-text h2{
+ font-size: 30px;
+ font-weight: bold;
+ margin-bottom: 16px;
+ color: #222;
+}
+.classes-text p{
+     font-size: 18px;
+    color: #574f4f;
+    margin-bottom: 32px;
+}
+.trial-btn {
+  background-color: #ffd43b;
+  color: #222;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.class-tuto{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 16px;
+  border: 2px solid white;
+}
+.classes-bg{
+   background-image: url("../assets/pexels.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%; 
+   height: 500px;
+}
+.class-img{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 0px 40px;
+}
+.classes-image{
+  margin-top: 350px;
+}
+#chid{
+  height: 100px ;
+}
+
+
+.classes-icons {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1rem;
+}
+
+.icon-card {
+  background-color: white;
+  display: flex;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 0.5rem;
+  
+}
+
+.icon-card img {
+  width: 50px;
+  height: auto;
+}
+
+.icon-card span {
+  font-size: 0.95rem;
+  font-weight: 500px;
+  color: #333;
+}
+
+
+@media screen and (max-width: 370px) {
+  .classes{
+    padding: 0px 7px 10px;
+    position: relative;  
+}
+.classes-bg{ 
+   height: 200px;
+}
+.classes-image{
+  margin-top: 130px;
+}
+.classes-icons {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7px;
+}
+#chid{
+  height: 60px ;
+}
+#icon{
+  height: 25px;
+  width: 25px;
+}
+.icon-card {
+  flex-direction: column;
+  padding: 10px;
+}
+}
+
+@media screen and (min-width:371px) and (max-width:640px) {
+   .classes{
+    padding: 0px 1rem 10px;
+}
+
+ .classes-icons {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+.classes-bg{
+  height: 300px;
+}
+.classes-image{
+  margin-top: 220px;
+}
+#chid{
+  height: 70px ;
+}
+#icon{
+  height: 30px;
+  width: 30px;
+}
+}

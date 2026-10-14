@@ -1,0 +1,108 @@
+.teacher{
+  background-color:rgba(240, 248, 255, 0.616); 
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.teacher h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #222;
+}
+.teacher-carousel{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 50px;
+}
+.teacher-carousel a{
+  text-decoration: none;
+}
+.teacher-card{
+background-color: #fff;
+  border-radius: 12px;
+  padding: 1.3rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: start; 
+}
+.teacher-card img.profile{
+    width: 90%;
+    height: 90%;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+    
+}
+.teacher-card h3 {
+ font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.stars {
+  color: #ffb400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.teacher-card p{
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+
+}
+@media screen and (max-width: 370px) {
+  .teacher{
+     padding: 2rem 0.5rem;
+  }
+  .teacher h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+ 
+}
+  .teacher-carousel{
+  grid-template-columns: 1fr;
+   
+}
+.teacher-card{
+  min-width: 50px;
+}
+}
+
+
+@media screen and (min-width: 371px) and (max-width: 620px){
+ .teacher{
+     padding: 2rem 0.8rem;
+  }
+  .teacher h2 {
+    font-size: 1.6rem;
+  }
+  .teacher-carousel{
+  grid-template-columns: repeat(2, 1fr);
+   gap: 8px;
+}
+.teacher-card{
+  min-width: 50px;
+}
+}
+
+@media screen and (min-width: 621px) and (max-width: 900px){
+  .teacher{
+     padding: 2rem 1rem;
+  }
+  .teacher-carousel{
+  grid-template-columns: repeat(3, 1fr);
+   gap: 8px;
+}
+.teacher-card{
+  min-width: 50px;
+}
+}
+
+@media screen and (min-width: 901px) and (max-width: 1067px) {
+ .teacher{
+     padding: 2rem 1rem;
+  } 
+}
+

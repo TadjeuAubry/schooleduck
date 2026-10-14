@@ -1,0 +1,95 @@
+.testimonials {
+  background-color: #fdf5e6; 
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.testimonial-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+#robert{
+    margin-top: 30px;
+}
+
+.testimonial-card img.profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.stars {
+  color: #ffb400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.arrow.left {
+  position: absolute;
+  left: 100px;
+}
+
+.arrow.right {
+  position: absolute;
+  right: 100px;
+}
+
+@media screen and (max-width:370px) {
+.testimonial-carousel {
+  flex-direction: column;
+}
+.testimonials {
+  padding: 1rem 0px;
+}
+}
+
+@media screen and (min-width: 371px) and (max-width: 640px) {
+  .testimonial-carousel {
+  flex-direction: column;
+}
+.testimonials {
+
+  padding: 10px 5px;
+}
+}

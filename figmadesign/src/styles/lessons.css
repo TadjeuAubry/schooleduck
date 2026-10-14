@@ -1,0 +1,107 @@
+.lessons{
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 3rem 2rem ;
+}
+
+.lessons-text h2 {
+ font-size: 32px;
+ font-weight: bold;
+ margin-bottom: 16px;
+ color: #222;
+}
+.lessons-text p {
+    font-size: 20px;
+    color: #574f4f;
+    margin-bottom: 32px;
+}
+.lessons-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    max-width: 100%;
+
+}
+.lessons-card {
+   background-color: white;
+   display: flex;
+   border-radius: 12px;
+   padding: 12px;
+   width: 180px;
+   text-align: center;
+   gap: 10px;
+   transition: transform 0.3s ease;
+}
+
+.lessons-card:hover{
+    transform: translateY(-5px);
+    background-color: red;
+}
+
+
+@media screen and (max-width:370px) {
+    .lessons{
+    padding: 1rem ;
+}
+.lessons-text p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+    .lessons-grid{
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+
+    }
+    .lessons-card{
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+        img{
+            height: 70%;
+            width: 70%;
+        }
+    }
+}
+
+
+@media screen and (min-width:371px) and (max-width: 640px) {
+     .lessons{
+    padding: 1rem ;
+}
+    .lessons-grid{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+    .lessons-card{
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 0px 0px;
+        width:90%;
+        img{
+            height: 70%;
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 820px) {
+ .lessons{
+    padding:16px 0px ;
+}
+    .lessons-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+}
+
+@media screen and (min-width: 821px) and (max-width: 1067px) {
+.lessons{
+    padding: 0px ;
+}
+    .lessons-grid{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    
+}

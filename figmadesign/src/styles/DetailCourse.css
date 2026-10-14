@@ -1,0 +1,519 @@
+.detailcourse{
+background-color: rgba(240, 248, 255, 0.295);
+padding: 3rem 4rem;
+}
+.hcdc{
+    opacity: 0.4;
+}
+.detailcourse-grid{
+    display: flex;
+     border-radius:16px;
+    gap: 10px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 100%;
+}
+.detailcourse-card{
+     padding: 30px 2rem;
+}
+.detailcourse-text h3{
+    font-weight:bold;
+    padding-top: 20px;
+}
+.detailcourse-text ul{
+    display: grid;
+    line-height: 0.8;
+}
+.detailcourse-text ul li{
+    list-style: none;
+}
+.detailcourse-text ul .time{
+    font-weight: bold;
+}
+.detailcourse-text ul .viewdetail{
+    color:rgb(163, 38, 194) ;
+    font-weight: bold;
+}
+.start1{
+    color: rgb(255, 196, 0);
+}
+.freetrial{
+    margin-top: 20px;
+}
+.freetrial #addbtn{
+    background-color: rgb(255, 166, 0);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 130px;
+}
+.freetrial #freebtn {
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    background-color: rgba(255, 228, 196, 0.788);
+    font-weight: 500;
+}
+
+.course-content {
+ padding-top: 30px;
+}
+
+.course-content h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  color: #222;
+}
+
+.course-content p {
+  font-size: 0.95rem;
+  color: #383232;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.benefits-text1 ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    list-style: none;
+    color: #2c2828;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.chb1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.check1{
+    height: 1%;
+    width: 1%;
+}
+.courses1 {
+    padding-top: 40px;
+}
+
+.similar-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.similar-grid{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    gap: 1rem;
+}
+.similarcourse-card {
+ display: flex; 
+ /* align-items:center; */
+   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.308);
+   border-radius: 20px;
+   padding: 10px;
+ gap: 12px;
+ img{
+     height: 60%;
+     width: 50%;
+ }
+
+ 
+}
+
+
+.course-info1 h4 {
+    margin-top:0px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.course-info1 p {
+  font-size: 0.7rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.price1 {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.price1 .discount1 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f56606;
+}
+
+.price1 .original1 {
+  font-size: 0.9rem;
+  color: #999;
+  text-decoration: line-through;
+}
+.detailquestions{
+    padding-top: 40px;
+}
+.detailquestions-grid{
+    background-color: #201802;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 40px 0px;
+    border-radius: 16px;
+}
+.detailquestions-card h2 {
+    color: white;
+    font-size: 1.4rem;
+}
+.detailquestions-card p {
+ color: white;
+ line-height: 1.3;
+ font-size: 15px;
+}
+.detailquestions-card img {
+    width: 200px;
+    height: 250px;
+}
+.detailquestions-search{
+    display: flex;
+}
+
+.detailquestions-search input{
+    background-color:#201802;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid grey;
+    margin-top: 10px;
+}
+
+.detailquestions-search button{
+    background-color:orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 16px;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+.detailquestions-search button:hover{
+    background-color: rgb(251, 255, 0);
+}
+
+@media screen and (max-width: 370px) {
+  .detailcourse{
+padding: 3rem 1rem;
+} 
+    .detailcourse-grid{
+    flex-direction: column;
+}
+.detailcourse-card{
+     padding: 10px;
+     margin-left: 20px;
+    width: 150px;
+     img{
+        width: 150px;
+        
+    
+     }
+}
+.detailcourse-text h3{
+    padding-top: 0px;
+}
+.detailcourse-text{
+    text-align: center;
+    padding:10px;
+}
+.freetrial #addbtn{
+    padding: 10px;
+    width: 100px;
+}
+.freetrial #freebtn {
+    margin-left: 0px;
+    padding: 7px;
+    width: 110px;
+}
+.similar-grid{
+    grid-template-columns: repeat(1,minmax(200px,1fr));
+}
+.similarcourse-card{
+    flex-direction: column;
+    align-items: center;
+}
+.price1 {
+  padding-bottom: 20px;
+}
+.detailquestions-grid{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px 0px;
+}
+.detailquestions-card{
+    text-align: center;
+    padding: 10px;
+}
+.detailquestions-card img {
+    width: 150px;
+    height: 200px;
+}
+.detailquestions-search{
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailquestions-search input{
+    padding: 7px;
+    font-size: 11px;
+    width: 130px;
+    border-radius: 4px;
+}
+
+.detailquestions-search button{
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+ 
+}
+}
+
+@media screen and (min-width: 371px) and (max-width:620px) {
+    .detailcourse{
+padding: 3rem 1rem;
+}
+    
+    .detailcourse-grid{
+    flex-direction: column;
+    padding-top: 20px;
+}
+.detailcourse-card{
+     padding: 10px;
+     margin-left: 60px;
+    width: 150px;
+     img{
+        width: 150px;
+     }
+}
+.detailcourse-text{
+    padding: 15px;
+}
+.detailcourse-text h3{
+    padding-top: 0px;
+}
+    
+.freetrial #addbtn{
+    padding: 10px;
+    width: 100px;
+}
+.freetrial #freebtn {
+    margin-left: 0px;
+    padding: 7px;
+    width: 110px;
+}
+.similar-grid{
+    grid-template-columns: repeat(1,minmax(200px,1fr));
+}
+.similarcourse-card{
+    flex-direction: column;
+    align-items: center;
+}
+
+.price1 {
+  padding-bottom: 20px;
+}
+.detailquestions-grid{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px 0px;
+}
+.detailquestions-card{
+    text-align: center;
+    padding: 10px;
+}
+.detailquestions-card img {
+    width: 150px;
+    height: 200px;
+}
+.detailquestions-search{
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailquestions-search input{
+    padding: 7px;
+    font-size: 11px;
+    width: 130px;
+    border-radius: 4px;
+}
+
+.detailquestions-search button{
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+ 
+}
+}
+
+@media screen and (min-width: 621px) and (max-width:820px) {
+    .detailcourse{
+background-color: rgba(240, 248, 255, 0.295);
+padding: 3rem 1.5rem;
+}  
+    .detailcourse-grid{
+    flex-direction: column;
+    padding-top: 20px;
+}
+.detailcourse-card{
+     padding: 10px;
+     margin-left: 90px;
+    width: 250px;
+     img{
+        width: 250px;
+     }
+}
+.detailcourse-text{
+    padding: 15px;
+}
+.detailcourse-text h3{
+    padding-top: 0px;
+}
+    
+.freetrial #addbtn{
+    padding: 10px;
+    width: 100px;
+}
+.freetrial #freebtn {
+    margin-left: 10px;
+    padding: 7px;
+    width: 120px;
+}
+.similar-grid{
+    grid-template-columns: repeat(2,minmax(200px,1fr));
+}
+.similarcourse-card{
+    flex-direction: column;
+    align-items: center;
+}
+.price1 {
+  padding-bottom: 20px;
+}
+.detailquestions-grid{
+    padding: 40px 0px;
+}
+.detailquestions-card{
+    text-align: center;
+    padding: 10px 0px;
+    p{
+        font-size: 12px;
+    }
+}
+.detailquestions-card img {
+    width: 150px;
+    height: 200px;
+}
+.detailquestions-search{
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.detailquestions-search input{
+    padding: 7px;
+    font-size: 11px;
+    width: 130px;
+    border-radius: 4px;
+}
+
+.detailquestions-search button{
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+ 
+}
+}
+
+@media screen and (min-width: 821px) and (max-width:1000px) {
+       .detailcourse-grid{
+    flex-direction: column;
+    padding-top: 20px;
+}
+.detailcourse-card{
+     padding: 10px;
+     margin-left: 90px;
+    width: 512px; 
+}
+.detailcourse-text{
+    padding: 25px;
+}
+.detailcourse-text h3{
+    padding-top: 0px;
+}
+
+.freetrial #addbtn{
+    padding: 10px;
+    width: 100px;
+}
+.freetrial #freebtn {
+    margin-left:10px;
+    padding: 7px;
+    width: 120px;
+}
+.similar-grid{
+    grid-template-columns: repeat(2,minmax(200px,1fr));
+}
+.price1 {
+  padding-bottom: 20px;
+}
+.detailquestions-grid{
+    padding: 40px 0px;
+}
+.detailquestions-card{
+    text-align: center;
+    padding: 10px 0px;
+    p{
+        font-size: 12px;
+    }
+}
+.detailquestions-card img {
+    width: 150px;
+    height: 200px;
+}
+.detailquestions-search{
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailquestions-search input{
+    padding: 7px;
+    font-size: 11px;
+    width: 130px;
+    border-radius: 4px;
+}
+
+.detailquestions-search button{
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+ 
+}
+}
+
+@media screen and (min-width:1001px) and (max-width: 1067px) {
+    .detailcourse-grid{
+        padding: 20px;
+    }
+    .detailcourse-card{
+     padding: 10px;
+    width: 490px; 
+    img{
+        width: 490px;
+    }
+}
+.detailcourse-text{
+    margin: 0px 20px 20px;
+
+}
+}

@@ -1,0 +1,68 @@
+.benefits{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    gap: 2rem;
+}
+.benefits-image img {
+    width: 400px;
+ height: 80vh;
+}
+.benefits-text h2 {
+    padding-left: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.benefits-text ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    list-style: none;
+    color: #2c2828;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+
+}
+.chb{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.check{
+    height: 5%;
+    width: 5%;
+}
+
+@media screen and (max-width: 370px) {
+    .benefits{
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10px 0px;
+  }
+  .benefits-image img {
+    width: 250px;
+ height: 60vh;
+}
+.benefits-text h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1.1rem;
+}
+.benefits-text ul{
+    font-size: 16px;
+}
+}
+
+@media screen and (min-width:371px) and (max-width: 640px) {
+    .benefits{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .benefits-image img {
+    width: 250px;
+ height: 60vh;
+}
+}

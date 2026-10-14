@@ -1,0 +1,122 @@
+.Sign2{
+    margin: 0;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container12 {
+  max-width: 400px;
+  width: 100%;
+  margin: 100px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: center;
+ animation: fadeSlideIn 0.8s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+.auth-container12 h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.auth-container12 form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-container12 input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.auth-container12 button {
+  padding: 0.75rem;
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-container12 button:hover {
+  background-color: #0056b3;
+}
+
+.auth-container12 p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.auth-container12 a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-container12 a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .auth-container12 {
+    max-width: 90%;      
+    margin: 60px auto;    
+    padding: 1.5rem;      
+  }
+
+  .auth-container12 h2 {
+    font-size: 1.5rem;    
+  }
+
+  .auth-container12 input,
+  .auth-container12 button {
+    font-size: 0.95rem;   
+    padding: 0.6rem;      
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .auth-container12 {
+    max-width: 95%;       
+    margin: 40px auto;    
+    padding: 1rem;        
+    border-radius: 8px;   
+  }
+
+  .auth-container12 h2 {
+    font-size: 1.3rem;   
+  }
+
+  .auth-container12 input,
+  .auth-container12 button {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .auth-container12 p {
+    font-size: 0.8rem;    
+  }
+}
